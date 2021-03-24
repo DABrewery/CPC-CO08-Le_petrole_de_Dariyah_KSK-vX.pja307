@@ -1,0 +1,67 @@
+// === MISSION OVERVIEW
+overviewText 	= "FS (KSK). Sabotage d'installation pétrolière en terrain semi-aride, météo au choix.";	// mission summary
+overviewPicture = "loadScreen.jpg";
+
+// === LOAD SCREEN
+onLoadName 		= "Le pétrole de Daryiah";
+author 			= "tanin69";									
+onLoadMission 	= "Le feu c'est beau, même à travers le Sirocco. Et même si ça pollue.";
+loadScreen 		= "loadScreen.jpg";
+
+// - Type de mission (informatif)
+class Header
+{
+	gameType = Coop; // MP mission type
+	minPlayers = 06;
+	maxPlayers = 08;
+};
+
+// Autres paramètres de la mission
+enableDebugConsole = 1;
+saving = 0;
+
+//Respawn parameters
+respawnOnStart = -1;
+
+// Fonctions
+#include "CfgFunctions.hpp"
+
+class CfgSounds
+{
+	class uragan_1
+	{
+		name = "uragan_1";
+		sound[] = {"\sound\uragan_1.ogg", db+5, 1};
+		titles[] = {1, ""};
+	};
+	class bcg_wind
+	{
+		name = "bcg_wind";
+		sound[] = {"\sound\bcg_wind.ogg", db+5, 1};
+		titles[] = {1, ""};
+	};	
+	class rafala_1
+	{
+		name = "rafala_1";
+		sound[] = {"\sound\rafala_1.ogg", db+10, 1};
+		titles[] = {1, ""};
+	};	
+	class rafala_4_dr
+	{
+		name = "rafala_4_dr";
+		sound[] = {"\sound\rafala_4_dr.ogg", db+1, 1};
+		titles[] = {1, ""};
+	};	
+	class rafala_5_st
+	{
+		name = "rafala_5_st";
+		sound[] = {"\sound\rafala_5_st.ogg", db+1, 1};
+		titles[] = {1, ""};
+	};
+	class sandstorm
+	{
+		name = "sandstorm";
+		sound[] = {"\sound\sandstorm.ogg", db+10, 1};
+		titles[] = {1, ""};
+	};		
+};
