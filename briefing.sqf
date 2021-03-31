@@ -18,7 +18,7 @@ Une mission de canards, avec LUCY et PLUTO et diverses coquineries.<br/><br/>
 player createDiaryRecord ["Diary", ["Insertion et fin de mission", "
 
 <font color='#82ff05'>Insertion</font color><br/>
-Insertion sur un des 3 points de spawn : <marker name ='mk_spawn_3a'>au sud</marker>, <marker name ='mk_spawn_2a'>à l'ouest</marker> ou <marker name ='mk_spawn_1a'>à l'est</marker>.<br/><br/>
+Insertion sur un des 3 points de spawn : <marker name ='mk_spawn_3a'>au sud</marker>, <marker name ='mk_spawn_2a'>à l'est</marker> ou <marker name ='mk_spawn_1a'>à l'ouest</marker>.<br/><br/>. Zoomez suffisamment sur le marqueur d'insertion pour pouvoir choisir le point.
 
 <font color='#82ff05'>Fin de mission</font color><br/>
 Tirez-vous de là vite fait et appelez l'extraction héliportée ! (voir GDC EXTRA)<br/>

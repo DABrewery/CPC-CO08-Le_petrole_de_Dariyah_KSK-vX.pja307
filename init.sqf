@@ -41,7 +41,7 @@ if (isServer) then {
       ["CUP_30Rnd_556x45_PMAG_QP_Tan",20],
       ["CUP_17Rnd_9x19_glock17", 30],
       ["CUP_HandGrenade_M67",10],
-      ["CUP_Weapon_launch_M136",4],
+      ["CUP_launch_M136",4],
       ["ACE_wirecutter",5],
       ["ACE_EntrenchingTool",5],
       ["ACE_EarPlugs",10],
