@@ -8,7 +8,7 @@ private _probaManedFW = 0.6;
 [_zn, _nbPat, GROUPE_ENI_PETIT, opfor] spawn int_fnc_spawnRdmPatrols;
 
 //Spawn des garnisons
-[_zn, _grpGarn, opfor, nil, nil, 0.1, 1] spawn int_fnc_spawnGarnisons;
+[_zn, _grpGarn, opfor, nil, nil, 0.1, 0.3] spawn int_fnc_spawnGarnisons;
 
 //Spawn des armes fixes
 [_zn, opfor, "CUP_O_KORD_high_TK", "CUP_O_TK_Soldier", 1, _probaManedFW, 0.8] spawn int_fnc_spawnFixedWeapons;
