@@ -4,7 +4,7 @@
 
 ### Changed
 
-* backpacks in crate are emptied (added aan option to *int_fnc_addCargo*)
+* backpacks in crate are emptied (added an option to *int_fnc_addCargo*)
 * Garrisonned units have more chances to leave their position
 
 ## 2 - 2021-03-31
